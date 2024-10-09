@@ -1,6 +1,14 @@
+import Footer from "../layout/Footer";
+import Header from "../layout/Header";
 
 export default function Home() {
   return (
-    <h1>Home</h1>
-  )
+    <>
+      <div className="h-screen">
+        <Header />
+
+        <Footer />
+      </div>
+    </>
+  );
 }
