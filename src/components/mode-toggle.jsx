@@ -10,7 +10,7 @@ import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 //   DropdownMenuTrigger,
 // } from "@/components/ui/dropdown-menu";
 
-const ThemeToggle = () => {
+const ModeToggle = () => {
   const [isDark, setIsDark] = useState(() => {
     // Check local storage or system preference
     const storedTheme = localStorage.getItem("theme");
@@ -46,4 +46,4 @@ const ThemeToggle = () => {
   );
 };
 
-export default ThemeToggle;
+export default ModeToggle;
