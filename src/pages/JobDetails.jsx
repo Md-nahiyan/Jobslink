@@ -3,5 +3,5 @@ export default function JobDetails() {
     <div>
       <h1>Job Details</h1>
     </div>
-  );
+  );s
 }
